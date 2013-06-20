@@ -1,5 +1,5 @@
 <?php
-require_once('lib/Chat.php');
+require_once(dirname(__FILE__).'/../lib/Chat.php');
 class ChatTest extends PHPUnit_Framework_TestCase {
   public function testSimpleMessaging(){
     $chat = new Chat();
